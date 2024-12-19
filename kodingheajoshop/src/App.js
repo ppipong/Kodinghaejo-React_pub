@@ -1,29 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+/* main-css-set */
+import './css/main.scss';
+import './css/reset.scss';
+import './css/fonts.scss';
+import {Route, Routes} from 'react-router-dom';
+import Header from './component/include/Header';
+import Footer from './component/include/Footer';
+import Main from './component/Main';
 
 function App() {
   return (
-    <div className="App">
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
-
-      <div className="min-h-screen flex justify-center items-center bg-blue-500">
-      <h1 className="text-white text-4xl">Hello, Tailwind CSS!</h1>
-      </div>
+    <div>
+      <Header />
+      <main>
+        <Routes>
+          <Route path="/" element={<Main />} />
+        </Routes>
+      </main>
+      <Footer />
     </div>
   );
+ 
 }
 
 export default App;
