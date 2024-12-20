@@ -9,7 +9,7 @@ import Main from './component/Main';
 
 function App() {
   return (
-    <div>
+    <div className='wrapper'>
       <Header />
       <main>
         <Routes>

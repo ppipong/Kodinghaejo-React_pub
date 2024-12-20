@@ -30,17 +30,61 @@ body {
   font-family: $primary-kr;
   color: $dark-black;
 }
-main {
-  min-height: 900px;
-}
+
 /* header footer */
 header {
-
+  nav {
+    width: 100%;
+    border: 1px solid tomato;
+    display: block;
+    text-align: center;
+    .logo {
+      h1 {
+        width: 300px;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 60px;
+        img {}
+      }
+    }
+    .nav-menu {
+      display: flex;
+      justify-content: space-between;
+      width: 1280px;
+      margin: 0 auto;
+      .nav-list {
+        display: flex;
+        border: 1px solid #000;
+        li {
+          border: 1px solid tomato;
+          margin: 0 10px;
+          font-weight: 500;
+          &:first-child {
+            margin-left: 0;
+          }
+        }
+      }
+    }
+  }
 }
 footer {
   height: 200px;
   background: $dark-black;
   color: $white;
   font-weight: 300;
+  p {
+    margin: 0;
+  }
+}
+/* main com */
+.wrapper {
   
 }
+main {
+  min-height: 900px;
+  width: 1280px;
+  margin: 0 auto;
+  border: 1px solid tomato;
+}
+/* menu-item : 메뉴 리스트 아이템 */
