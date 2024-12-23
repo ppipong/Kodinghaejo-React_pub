@@ -5,7 +5,8 @@ import './css/fonts.scss';
 import {Route, Routes} from 'react-router-dom';
 import Header from './component/include/Header';
 import Footer from './component/include/Footer';
-import Main from './component/Main';
+import Main from './component/page/Main';
+import Page from './component/page/Page';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Main />} />
+          <Route path="/" element={<Page />} />
         </Routes>
       </main>
       <Footer />

@@ -6,19 +6,7 @@
 // font-family: 'Raleway', sans-serif;
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-@font-face {
-  font-family: 'SpoqaHanSansNeo-Regular';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-
 /* 로컬 폰트 설정 */
-@font-face {
-  font-family: 'dahun';
-  src: url('/font/dahun.ttf');
-}
 @font-face {
   font-family: 'CookieRun-Regular';
   src: url('/font/CookieRun-Regular.ttf');
@@ -30,4 +18,44 @@
 @font-face {
   font-family: 'CookieRun-Black';
   src: url('/font/CookieRun-Black.ttf');
+}
+@font-face {
+  font-family: 'Paperlogy';
+  src: url('/font/Paperlogy-1Thin.ttf') format('truetype');
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'Paperlogy';
+  src: url('/font/Paperlogy-2ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+}
+@font-face {
+  font-family: 'Paperlogy';
+  src: url('/font/Paperlogy-4Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Paperlogy';
+  src: url('/font/Paperlogy-5Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Paperlogy';
+  src: url('/font/Paperlogy-6SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Paperlogy';
+  src: url('/font/Paperlogy-7Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Paperlogy';
+  src: url('/font/Paperlogy-8ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'Paperlogy';
+  src: url('/font/Paperlogy-9Black.ttf') format('truetype');
+  font-weight: 900;
 }

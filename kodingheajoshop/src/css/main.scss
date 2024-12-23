@@ -1,6 +1,6 @@
 /* Setting Variables : Font Family */
 $primary-kr: 'Noto Sans KR', sans-serif;
-$secondary-kr: 'SpoqaHanSansNeo-Regular';
+$secondary-kr: 'CookieRun-Regular';
 $primary-en: 'Raleway', sans-serif;
 $bs-font: bootstrap-icons;
 
@@ -39,6 +39,7 @@ header {
     display: block;
     text-align: center;
     .logo {
+      width: 100%;
       h1 {
         width: 300px;
         display: block;
@@ -77,14 +78,52 @@ footer {
     margin: 0;
   }
 }
-/* main com */
-.wrapper {
-  
-}
+/* page */
+.wrapper {}
 main {
   min-height: 900px;
   width: 1280px;
   margin: 0 auto;
   border: 1px solid tomato;
 }
-/* menu-item : 메뉴 리스트 아이템 */
+
+/********************** asset **********************/
+// asset : card 
+.card-wrap {
+  display: flex;
+  gap: 20px;
+  .card-item {
+    width: 300px;
+    height: 400px;
+    border: 1px solid #000;
+    .card-img {
+      width: 280px;
+      height: 280px;
+      margin: 20px auto;
+      img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+      }
+    }
+    .card-title {
+      font-family: 'Paperlogy';
+      font-weight: 700;
+      p {
+        margin: 0;
+        padding: 0;
+      }
+      .category {
+        font-size: 14px;
+        font-weight: 500;
+      }
+      .product {
+        font-size: 18px;
+      }
+    }
+    .card-sub-info {
+      p {}
+
+    }
+  }
+}
