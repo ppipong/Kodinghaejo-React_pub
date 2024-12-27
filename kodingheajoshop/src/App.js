@@ -2,6 +2,8 @@
 import './css/main.scss';
 import './css/reset.scss';
 import './css/fonts.scss';
+import './css/responsive-mo.scss';
+import './css/responsive-tab.scss';
 import {Route, Routes} from 'react-router-dom';
 import Header from './component/include/Header';
 import Footer from './component/include/Footer';

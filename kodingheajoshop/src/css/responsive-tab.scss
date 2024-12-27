@@ -1,4 +1,7 @@
 /* Responsive for Mobile */
 @media (min-width : 767px) and (max-width: 1024px) {
   // 추후 작업 예정
+  .card-wrap{
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
