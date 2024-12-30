@@ -5,7 +5,11 @@ import { useState, useRef, useEffect } from 'react';
 const Page = () => {
     return (
         <div>
-            ggg
+            <div className="product-title"></div>
+            <div className="product-content"></div>
+            <div className="product-review"></div>
+            <div className="product-QnA"></div>
+            <div className="product-recommend"></div>
         </div>
     );
 };

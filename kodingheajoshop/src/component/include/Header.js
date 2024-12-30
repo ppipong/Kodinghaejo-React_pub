@@ -1,7 +1,14 @@
 import React from 'react';
 
 const Header = () => {
-  if (window.scrollY > 100) { document.querySelector('.header nav').style.position = 'fixed';}
+  // window.addEventListener('scroll', function() {
+  //   if (window.scrollY > 100) {
+  //       document.querySelector('header nav').style.position = 'fixed';
+  //   } else {
+  //       document.querySelector('header nav').style.position = '';
+  //   }
+  //   console.log(window.scrollY);
+  // });
   return (
     <header>
       <nav>
